@@ -9,7 +9,7 @@ You will need a Persistent Volume. Check the Tails docs if you need to create on
 2. Enable "Dotfiles" at the bottom of the list and Save the changes.
 
 ## Download Wire
-[https://wire.com/en/download/ ] Click on Details and choose the AppImage.
+[https://wire.com/en/download/ Download site] Click on Details and choose the AppImage.
 
 ## Install the AppImage
 1. Create a folder called "Wire" in your Persistent folder.
@@ -30,4 +30,4 @@ mkdir -p "/live/persistence/TailsData_unlocked/dotfiles/.local/share/application
 cp "/home/amnesia/Persistent/Wire/Wire.desktop" "/live/persistence/TailsData_unlocked/dotfiles/.local/share/applications"
 ````
 ## Done
-After a rebootyou should find Wire as an entry in the Tails Application menu (category Network)
+After a reboot you should find Wire as an entry in the Tails Application menu (category Network)
