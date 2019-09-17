@@ -20,7 +20,7 @@ You will need a Persistent Volume. Check the Tails docs if you need to create on
 3. Make the App executable, by running the following command in the command line 
 ``chmod +x /home/amnesia/Persistent/Wire/Wire.AppImage``
 4. Create two empty folders next to it, and name them ``Wire.AppImage.config`` and ``Wire.AppImage.home``. This ensures that your conversations are saved in your Persistent folder, and you don't have to login each time again.
-5. Create a file called ``Wire.desktop`` with the following content:
+5. Create a text file with the following content and save it as  ``Wire.desktop`` into the Wire folder:
 ````
 [Desktop Entry]
 Encoding=UTF-8
