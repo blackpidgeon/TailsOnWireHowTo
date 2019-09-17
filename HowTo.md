@@ -1,3 +1,4 @@
+# Installing Wire on Tails
 Wire is an encrypted messaging app, available for many different platforms.
 It is possible to install on Tails, a secure Linux on an USB Stick.
 
@@ -9,7 +10,9 @@ You will need a Persistent Volume. Check the Tails docs if you need to create on
 2. Enable "Dotfiles" at the bottom of the list and Save the changes.
 
 ## Download Wire
-[https://wire.com/en/download/ Download site] Click on Details and choose the AppImage.
+1. Go to https://wire.com/en/download/
+2. Click on Details
+3. Choose AppImage
 
 ## Install the AppImage
 1. Create a folder called "Wire" in your Persistent folder.
