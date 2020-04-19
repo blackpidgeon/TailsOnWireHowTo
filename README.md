@@ -16,24 +16,17 @@ You will need a Persistent Volume. Check the [Tails docs](images/https://tails.b
 ## Download Wire
 
 1. Go to https://wire.com/en/download/
-![download](images/Download1.png)
-2. Click on Details
-![download](images/Download2.png)
-3. Choose AppImage
-4. Save into the TorBrowser folder.
-![download](images/Download3.png)
+2. Click on Details ![download](images/Download1.png)
+3. Choose AppImage  ![download](images/Download2.png)
+4. Save into the TorBrowser folder. ![download](images/Download3.png)
 
 
 ## Install the AppImage
 
-1. Create a folder called "Wire" in your Persistent folder.
-![new](images/NewFolder.png)
-2. Move the downloaded file into your this folder, and rename it to ``Wire.AppImage``
-![copy](images/Copy.png)
-3. Right click on the ``Wire.AppImage`` file, select properties & make the App executable:
-![execute](images/Execute.png)
-4. Create two empty folders next to it, and name them ``Wire.AppImage.config`` and ``Wire.AppImage.home``. This ensures that your conversations are saved in your Persistent folder, and you don't have to login each time again.
-![folders](images/Folders.png)
+1. Create a folder called "Wire" in your Persistent folder. ![new](images/NewFolder.png)
+2. Move the downloaded file into your this folder, and rename it to ``Wire.AppImage`` ![copy](images/Copy.png)
+3. Create two empty folders next to it, and name them ``Wire.AppImage.config`` and ``Wire.AppImage.home``. This ensures that your conversations are saved in your Persistent folder, and you don't have to login each time again. ![folders](images/Folders.png)
+4. Right click on the ``Wire.AppImage`` file, select properties & make the App executable: ![execute](images/Execute.png)
 5. Create a text file with the following content and save it as  ``Wire.desktop`` into the Wire folder:
 ````
 [Desktop Entry]
