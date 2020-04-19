@@ -13,8 +13,11 @@ You will need a Persistent Volume. Check the [Tails docs](images/https://tails.b
 1. Open the "Configure Persistent Volume" application. You find it in the Tails application menu in the Group named "Tails". ![persistent](images/ConfigurePersistent.png)
 2. Enable "Dotfiles" at the bottom of the list and Save the changes. ![dotfiles](images/Dotfiles.png)
 
-## Download Wire
+### Restart
+Restart Tails [**and set an administrator password on the next start.**](https://tails.boum.org/doc/first_steps/welcome_screen/administration_password/)
+![](https://tails.boum.org/doc/first_steps/welcome_screen/additional.png)
 
+## Download Wire
 1. Go to https://wire.com/en/download/
 2. Click on Details ![download](images/Download1.png)
 3. Choose AppImage  ![download](images/Download2.png)
@@ -39,9 +42,8 @@ Categories=Network;
 ````
 ![Text](images/Desktop.png)
 
-4. Open a Root Terminal & install the Wire.desktop link by pasting (right-click into the window and select paste) the following two commands in the command line:
-![root](images/root.png)
-
+7. Open a Root Terminal ![root](images/root.png)
+8. Install the Wire.desktop link by pasting (right-click into the window and select paste) the following two commands in the command line:
 ````
 mkdir -p "/live/persistence/TailsData_unlocked/dotfiles/.local/share/applications"
 ````
@@ -52,5 +54,6 @@ Press enter and paste the next command:
 ln -s "/home/amnesia/Persistent/Wire/Wire.desktop" "/live/persistence/TailsData_unlocked/dotfiles/.local/share/applications/Wire.desktop"
 ````
 ![root](images/root2.png)
+
 ## Done
 After a reboot you should find Wire as an entry in the Tails Application menu (category Network)
