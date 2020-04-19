@@ -10,10 +10,8 @@ This guide was last tested in April 2020, using Tails 4.5 and Wire 3.16
 You will need a Persistent Volume. Check the [Tails docs](images/https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html) if you need to create one.
 
 #### Enable Persistent Dotfiles. 
-![persistent](images/ConfigurePersistent.png)
-1. Open the "Configure Persistent Volume" application. You find it in the Tails application menu in the Group named "Tails".
-![dotfiles](images/Dotfiles.png)
-2. Enable "Dotfiles" at the bottom of the list and Save the changes.
+1. Open the "Configure Persistent Volume" application. You find it in the Tails application menu in the Group named "Tails". ![persistent](images/ConfigurePersistent.png)
+2. Enable "Dotfiles" at the bottom of the list and Save the changes. ![dotfiles](images/Dotfiles.png)
 
 ## Download Wire
 
