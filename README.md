@@ -27,7 +27,8 @@ You will need a Persistent Volume. Check the [Tails docs](images/https://tails.b
 2. Move the downloaded file into your this folder, and rename it to ``Wire.AppImage`` ![copy](images/Copy.png)
 3. Create two empty folders next to it, and name them ``Wire.AppImage.config`` and ``Wire.AppImage.home``. This ensures that your conversations are saved in your Persistent folder, and you don't have to login each time again. ![folders](images/Folders.png)
 4. Right click on the ``Wire.AppImage`` file, select properties & make the App executable: ![execute](images/Execute.png)
-5. Create a text file with the following content and save it as  ``Wire.desktop`` into the Wire folder:
+5. Open a new Textfile ![Text](images/Texteditor.png)
+6. Create a text file with the following content and save it as  ``Wire.desktop`` into the Wire folder:
 ````
 [Desktop Entry]
 Encoding=UTF-8
@@ -36,7 +37,6 @@ Exec='/home/amnesia/Persistent/Wire/Wire.AppImage' --no-sandbox --proxy-server="
 Type=Application
 Categories=Network;
 ````
-![Text](images/Texteditor.png)
 ![Text](images/Desktop.png)
 
 4. Open a Root Terminal & install the Wire.desktop link by pasting (right-click into the window and select paste) the following two commands in the command line:
